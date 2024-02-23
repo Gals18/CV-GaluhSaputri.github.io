@@ -1,0 +1,108 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+span {
+	padding: 2rem;
+}
+.container {
+	display: flex;
+	max-width: 700px;
+	margin: 10px auto;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+	border-top-left-radius: 10px; /* Memberikan radius pada pojok kiri atas */
+	border-bottom-left-radius: 10px; /* Memberikan radius pada pojok kiri bawah */
+	width: 40%;
+	background-color: #00509d;
+}
+
+.nama {
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #fdc500;
+	margin-left: 10px;
+}
+
+small i {
+	color: #ffffff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.content {
+	width: 100%;
+	margin-left: 20px;
+}
+.content p {
+	margin-right: 20px;
+}
+section h2 {
+	background-color: #00509d;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-left: 10px;
+	color: #ffffff;
+}
+.tentang p {
+	font-size: 90%;
+	margin-left: 6px;
+}
+.badges p{
+	font-size: 90%;
+	font-style: italic;
+}
+.badges{
+	display: flex;
+}
+.Sertifikasi img{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 5px;
+}
+.circle img {
+	width: 90px;
+	height: 90px;
+	display: block; /* Memastikan gambar dianggap sebagai blok */
+	margin: 0 auto;
+	border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+	.circle img {
+		max-width: 100%;
+		border-radius: 50%;
+		height: 90px;
+		/* Opsional: Ini akan memastikan rasio aspek gambar dipertahankan */
+	}
+}
+
+.animated-background {
+	background: linear-gradient(45deg, #fbfbfc, #b741fc, #ffffff, #8b32ff);
+	background-size: 300% 300%;
+	animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.icon-github {
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 20px;
+}
