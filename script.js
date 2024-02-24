@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	
   Swal.fire({
 		title: "Selamat datang :))",
-    width: '80%',
+    width: '50%',
     padding: '3em',
 		text: "Jika Anda tertarik, bisa langsung klik whats'app. Trimakasih.",
 		icon: "info",
