@@ -172,7 +172,6 @@ section p {
 	margin-top: 5px;
 }
 
-
 @media screen and (max-width: 540px) {
 	.circle img {
 		max-width: 100%;
@@ -188,13 +187,12 @@ section p {
 		margin-top: 5px;
 	}
 	.content {
-		width: 600px;
+		width: 610px;
 	}
 	.container {
 		width: 430px;
-	
 	}
-	body{
+	body {
 		height: max-content;
 	}
 	.line {
@@ -207,6 +205,21 @@ section p {
 		border-bottom-left-radius: 10px; /* Memberikan radius pada pojok kiri bawah */
 		width: 40%;
 		background-color: #00509d;
+	}
+	.icon-organisation {
+		color: #ffffff;
+	}
+	.organisation {
+		font-size: 15px;
+	}
+
+	.ttd {
+		opacity: 30%;
+		margin-top: 300px;
+		color: #fff;
+		margin-left: 10px;
+		bottom: 0;
+		left: 0;
 	}
 }
 
