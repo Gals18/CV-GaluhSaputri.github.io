@@ -169,14 +169,40 @@ section p {
 	margin-top: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
 	.circle img {
 		max-width: 100%;
 		border-radius: 50%;
 		height: 90px;
 		/* Opsional: Ini akan memastikan rasio aspek gambar dipertahankan */
 	}
+	.content section{
+		width: 100%;
+	}
+	.message {
+		padding: 0 3px;
+		margin-top: 5px;
+	}
+	.content{
+		width: 600px;
+	}
+	.container{
+		width: 430px;
+	}
+	.line {
+		flex: 1;
+		padding: 7px;
+		border-top: 1px solid #0030b4;
+	}
+	.sidebar {
+		border-top-left-radius: 10px; /* Memberikan radius pada pojok kiri atas */
+		border-bottom-left-radius: 10px; /* Memberikan radius pada pojok kiri bawah */
+		width: 40%;
+		background-color: #00509d;
+	}
+	
 }
+
 
 .animated-background {
 	background: linear-gradient(45deg, #fbfbfc, #b741fc, #ffffff, #8b32ff);
