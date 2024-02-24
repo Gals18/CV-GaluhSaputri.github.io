@@ -32,11 +32,23 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Mengubah href dari tautan WhatsApp
 	document.getElementById("whatsappLink").setAttribute("href", linkWhatsApp);
 });
+
 document.addEventListener("DOMContentLoaded", (event) => {
-	Swal.fire({
+	
+  Swal.fire({
 		title: "Selamat datang :))",
+    width: '80%',
+    padding: '3em',
 		text: "Jika Anda tertarik, bisa langsung klik whats'app. Trimakasih.",
 		icon: "info",
 		confirmButtonText: "OK",
+    backdrop: `
+    rgba(0,0,123,0.4)
+    url("/images/nyan-cat.gif")
+    left top
+    no-repeat
+  `
 	});
+
+  
 });

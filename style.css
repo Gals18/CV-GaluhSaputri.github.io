@@ -102,8 +102,8 @@ section p {
 .Sertifikasi img:hover {
 	transform: scale(4.4); /* Sesuaikan dengan faktor pembesaran yang diinginkan */
 	filter: brightness(1.2); /* Sesuaikan nilai kecerahan yang diinginkan */
-    transform-origin: right; /* Mengatur titik awal transformasi */
-    align-items: flex-start; 
+	transform-origin: right; /* Mengatur titik awal transformasi */
+	align-items: flex-start;
 }
 
 .circle img {
@@ -171,6 +171,11 @@ section p {
 	margin-top: 5px;
 }
 
+.swal2-container {
+    width: 80%; /* Contoh menggunakan persentase */
+    max-width: 500px; /* Batas maksimum lebar */
+}
+
 @media screen and (max-width: 540px) {
 	.circle img {
 		max-width: 100%;
@@ -178,17 +183,17 @@ section p {
 		height: 90px;
 		/* Opsional: Ini akan memastikan rasio aspek gambar dipertahankan */
 	}
-	.content section{
+	.content section {
 		width: 100%;
 	}
 	.message {
 		padding: 0 3px;
 		margin-top: 5px;
 	}
-	.content{
+	.content {
 		width: 600px;
 	}
-	.container{
+	.container {
 		width: 430px;
 	}
 	.line {
@@ -202,9 +207,10 @@ section p {
 		width: 40%;
 		background-color: #00509d;
 	}
-	
+	.swal2-popup {
+        font-size: 14px; /* Mengubah ukuran font pada layar kecil */
+    }
 }
-
 
 .animated-background {
 	background: linear-gradient(45deg, #fbfbfc, #b741fc, #ffffff, #8b32ff);
