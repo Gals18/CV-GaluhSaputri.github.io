@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var pesan = "Halo Galuh Saputri, Saya Tertarik dengan CV anda, Bisakah Untuk meluangkan waktu mengobrol dengan saya.";
 
     // Nomor WhatsApp dan pesan yang disimpan
-    var nomorWhatsApp = "6281227507876";
+    var nomorWhatsApp = "62895424225333";
     var linkWhatsApp = "https://wa.me/" + nomorWhatsApp + "/?text=" + encodeURIComponent(pesan);
 
     // Mengubah href dari tautan WhatsApp
