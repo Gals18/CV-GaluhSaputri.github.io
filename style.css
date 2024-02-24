@@ -1,5 +1,5 @@
 body {
-	font-family: Arial, sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	margin: 0;
 	margin-bottom: 10px;
 	padding: 0;
@@ -13,14 +13,14 @@ span {
 	max-width: 700px;
 	margin: 10px auto;
 	background-color: #fff;
-	border-radius: 20px;
+	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar {
 	border-top-left-radius: 10px; /* Memberikan radius pada pojok kiri atas */
 	border-bottom-left-radius: 10px; /* Memberikan radius pada pojok kiri bawah */
-	width: 40%;
+	width: 45%;
 	background-color: #00509d;
 }
 
@@ -34,8 +34,32 @@ span {
 
 small i {
 	color: #ffffff;
-	margin-left: 10px;
+	margin-left: 0px;
 	margin-right: 10px;
+}
+small i:hover {
+	background-color: #02417c;
+	cursor: pointer;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+.contact p {
+	border-top-right-radius: 10px; /* Memberikan radius pada pojok kiri atas */
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	width: 150px;
+	padding: 5px;
+	background-color: #fdc500;
+	color: #363636;
+}
+
+a small {
+	font-style: italic;
+	font-size: 10px;
+	margin-left: 1px;
+	color: #ffffff;
 }
 .content {
 	width: 100%;
@@ -51,22 +75,35 @@ section h2 {
 	padding-left: 10px;
 	color: #ffffff;
 }
-.tentang p {
+section p {
 	font-size: 90%;
-	margin-left: 6px;
+	margin-left: 0px;
 }
-.badges p{
+.badges p {
 	font-size: 90%;
 	font-style: italic;
 }
-.badges{
+.badges {
 	display: flex;
 }
-.Sertifikasi img{
-	width: 80px;
+
+.judul p {
+	margin-left: 20px;
+}
+.ketrampilan {
+	margin-top: 40px;
+}
+.Sertifikasi img {
+	width: 100px;
 	height: 80px;
 	margin-bottom: 5px;
+	transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
+.Sertifikasi img:hover {
+	transform: scale(4.4); /* Sesuaikan dengan faktor pembesaran yang diinginkan */
+	filter: brightness(1.2); /* Sesuaikan nilai kecerahan yang diinginkan */
+}
+
 .circle img {
 	width: 90px;
 	height: 90px;
@@ -74,6 +111,64 @@ section h2 {
 	margin: 0 auto;
 	border-radius: 50%;
 }
+.circle img:hover {
+	transform: scale(2.1); /* Sesuaikan dengan faktor pembesaran yang diinginkan */
+	filter: brightness(1.2);
+}
+:root {
+	--percentage: 50%; /* Nilai default persentase */
+}
+
+.bar {
+	border-top-right-radius: 6px; /* Memberikan radius pada pojok kiri atas */
+	border-bottom-right-radius: 6px;
+	text-align: center; /* Teks akan berada di kanan batang */
+	line-height: 20px; /* Aling baseline teks */
+	color: rgb(0, 0, 0); /* Warna teks */
+	margin-bottom: 10px; /* Jarak antar batang */
+	background: linear-gradient(to right, #0096c7 var(--percentage), #ffffff var(--percentage));
+	margin-right: 6px;
+}
+.ttd {
+	opacity: 30%;
+	margin-top: 120px;
+	color: #fff;
+	margin-left: 10px;
+	bottom: 0;
+	left: 0;
+}
+/* Contoh penggunaan */
+#html {
+	--percentage: 80%;
+}
+#js {
+	--percentage: 50%;
+}
+
+#laravel {
+	--percentage: 60%;
+}
+
+#php {
+	--percentage: 70%;
+}
+
+.line-with-message {
+	display: flex;
+	align-items: center;
+}
+
+.line {
+	flex: 1;
+	padding: 1px;
+	border-top: 1px solid #0030b4;
+}
+
+.message {
+	padding: 0 30px;
+	margin-top: 5px;
+}
+
 @media screen and (max-width: 768px) {
 	.circle img {
 		max-width: 100%;
@@ -105,4 +200,8 @@ section h2 {
 	margin-top: 10px;
 	margin-left: 30px;
 	margin-right: 20px;
+}
+
+.icon-organisation {
+	color: #ffffff;
 }
