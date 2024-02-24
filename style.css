@@ -102,6 +102,8 @@ section p {
 .Sertifikasi img:hover {
 	transform: scale(4.4); /* Sesuaikan dengan faktor pembesaran yang diinginkan */
 	filter: brightness(1.2); /* Sesuaikan nilai kecerahan yang diinginkan */
+    transform-origin: right; /* Mengatur titik awal transformasi */
+    align-items: flex-start; 
 }
 
 .circle img {
