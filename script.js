@@ -37,18 +37,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	
   Swal.fire({
 		title: "Selamat datang :))",
-    width: '50%',
-    padding: '3em',
+    width: "40%",
 		text: "Jika Anda tertarik, bisa langsung klik whats'app. Trimakasih.",
 		icon: "info",
 		confirmButtonText: "OK",
-    backdrop: `
-    rgba(0,0,123,0.4)
-    url("/images/nyan-cat.gif")
-    left top
-    no-repeat
-  `
 	});
-
   
 });
