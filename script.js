@@ -33,14 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
 	document.getElementById("whatsappLink").setAttribute("href", linkWhatsApp);
 });
 
-document.addEventListener("DOMContentLoaded", (event) => {
+// document.addEventListener("DOMContentLoaded", (event) => {
 	
-  Swal.fire({
-		title: "Selamat datang :))",
-    width: "40%",
-		text: "Jika Anda tertarik, bisa langsung klik whats'app. Trimakasih.",
-		icon: "info",
-		confirmButtonText: "OK",
-	});
+//   Swal.fire({
+// 		title: "Selamat datang :))",
+//     width: "40%",
+// 		text: "Jika Anda tertarik, bisa langsung klik whats'app. Trimakasih.",
+// 		icon: "info",
+// 		confirmButtonText: "OK",
+// 	});
   
-});
+// });
