@@ -92,7 +92,7 @@ section p {
 	margin-left: 20px;
 }
 .ketrampilan {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 .Sertifikasi img {
 	width: 100px;
@@ -128,7 +128,7 @@ section p {
 	text-align: center; /* Teks akan berada di kanan batang */
 	line-height: 20px; /* Aling baseline teks */
 	color: rgb(0, 0, 0); /* Warna teks */
-	margin-bottom: 10px; /* Jarak antar batang */
+	margin-bottom: 1px; /* Jarak antar batang */
 	background: linear-gradient(to right, #0096c7 var(--percentage), #ffffff var(--percentage));
 	margin-right: 6px;
 }
@@ -142,7 +142,7 @@ section p {
 }
 /* Contoh penggunaan */
 #html {
-	--percentage: 80%;
+	--percentage: 70%;
 }
 #js {
 	--percentage: 50%;
@@ -153,7 +153,7 @@ section p {
 }
 
 #php {
-	--percentage: 70%;
+	--percentage: 60%;
 }
 
 .line-with-message {
